@@ -13,7 +13,7 @@ int main(int argc, char* argu[]){
 		resultado=1;
 		//hará la operación
 		for(j=1; j<argc; j++){
-			argui[j]=atoi(argu[i]);
+			argui[j]=atoi(argu[j]);
 			//sacar resultado sin excluir
 			resultado=resultado*argui[j];
 	
